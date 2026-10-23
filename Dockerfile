@@ -19,7 +19,7 @@ LABEL org.opencontainers.image.title="Prizolov Agent OS" \
       org.opencontainers.image.authors="Dm.Andreyanov / Prizolov Lab" \
       org.opencontainers.image.vendor="Prizolov Lab" \
       org.opencontainers.image.url="https://prizolov.ru" \
-      org.opencontainers.image.source="https://github.com/GIBDD-DPS/prizolov-agent-os" \
+      org.opencontainers.image.source="https://github.com/prizolov-lab/prizolov-agent-os" \
       org.opencontainers.image.licenses="Apache-2.0"
 
 ENV PYTHONDONTWRITEBYTECODE=1 \

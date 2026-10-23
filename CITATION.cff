@@ -8,7 +8,7 @@ title: "Prizolov Agent OS"
 version: "0.3.0"
 date-released: "2026-10-08"
 license: Apache-2.0
-repository-code: "https://github.com/GIBDD-DPS/prizolov-agent-os"
+repository-code: "https://github.com/prizolov-lab/prizolov-agent-os"
 url: "https://prizolov.ru"
 authors:
   - alias: "Dm.Andreyanov"

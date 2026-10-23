@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0 -->
 
 Это планы, а не обещания: порядок может меняться по отзывам пользователей. Хотите
 что-то ускорить или предложить своё — создайте
-[issue](https://github.com/GIBDD-DPS/prizolov-agent-os/issues/new/choose) или возьмите
+[issue](https://github.com/prizolov-lab/prizolov-agent-os/issues/new/choose) или возьмите
 пункт себе (см. [CONTRIBUTING.md](CONTRIBUTING.md)). Что уже сделано —
 в [CHANGELOG.md](CHANGELOG.md).
 

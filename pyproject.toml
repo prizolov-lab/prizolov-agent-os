@@ -77,10 +77,10 @@ all = [
 prizolov = "cli.main:main"
 
 [project.urls]
-Homepage = "https://github.com/GIBDD-DPS/prizolov-agent-os"
-Documentation = "https://github.com/GIBDD-DPS/prizolov-agent-os/tree/main/docs"
-Repository = "https://github.com/GIBDD-DPS/prizolov-agent-os"
-Issues = "https://github.com/GIBDD-DPS/prizolov-agent-os/issues"
+Homepage = "https://github.com/prizolov-lab/prizolov-agent-os"
+Documentation = "https://github.com/prizolov-lab/prizolov-agent-os/tree/main/docs"
+Repository = "https://github.com/prizolov-lab/prizolov-agent-os"
+Issues = "https://github.com/prizolov-lab/prizolov-agent-os/issues"
 Brand = "https://prizolov.ru"
 
 [tool.setuptools.dynamic]

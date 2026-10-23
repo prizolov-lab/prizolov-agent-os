@@ -133,5 +133,5 @@ SPDX-License-Identifier: Apache-2.0 -->
 - **CI на GitHub Actions:** ruff, шапки авторства, тесты на Python 3.10–3.13.
 - **Авторство:** шапки во всех файлах, лицензия Apache 2.0, NOTICE, CITATION.cff.
 
-[Не выпущено]: https://github.com/GIBDD-DPS/prizolov-agent-os/compare/main...HEAD
-[0.3.0]: https://github.com/GIBDD-DPS/prizolov-agent-os/tree/main
+[Не выпущено]: https://github.com/prizolov-lab/prizolov-agent-os/compare/main...HEAD
+[0.3.0]: https://github.com/prizolov-lab/prizolov-agent-os/tree/main

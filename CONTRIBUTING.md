@@ -9,7 +9,7 @@ SPDX-License-Identifier: Apache-2.0 -->
 
 ## Сообщить об ошибке или предложить идею
 
-Создайте [issue](https://github.com/GIBDD-DPS/prizolov-agent-os/issues/new/choose)
+Создайте [issue](https://github.com/prizolov-lab/prizolov-agent-os/issues/new/choose)
 по шаблону. Для ошибки укажите:
 
 - что делали и что ожидали;
@@ -22,7 +22,7 @@ SPDX-License-Identifier: Apache-2.0 -->
 ## Подготовка к разработке
 
 ```bash
-git clone https://github.com/GIBDD-DPS/prizolov-agent-os.git
+git clone https://github.com/prizolov-lab/prizolov-agent-os.git
 cd prizolov-agent-os
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[all]"

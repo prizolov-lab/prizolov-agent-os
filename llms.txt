@@ -15,26 +15,26 @@ Key facts:
 
 ## Docs
 
-- [README (English)](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/README.en.md): overview, quick start, features
-- [README (Russian)](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/README.md): full user guide: web UI, Docker, Telegram, scheduler, API
-- [Architecture](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/docs/architecture.md): agents, self-learning, forecasting, knowledge base, security
-- [Configuration](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/docs/configuration.md): every `.env` setting
-- [HTTP API](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/docs/api.md): endpoints for tasks, approvals, reports, forecasts, cash flow, payment calendar, portfolio, tenders, schedules, documents
-- [MCP server](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/docs/mcp.md): setup for Claude Desktop, Cursor, Claude Code and the tool list
+- [README (English)](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/README.en.md): overview, quick start, features
+- [README (Russian)](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/README.md): full user guide: web UI, Docker, Telegram, scheduler, API
+- [Architecture](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/docs/architecture.md): agents, self-learning, forecasting, knowledge base, security
+- [Configuration](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/docs/configuration.md): every `.env` setting
+- [HTTP API](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/docs/api.md): endpoints for tasks, approvals, reports, forecasts, cash flow, payment calendar, portfolio, tenders, schedules, documents
+- [MCP server](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/docs/mcp.md): setup for Claude Desktop, Cursor, Claude Code and the tool list
 
 ## Examples
 
-- [Examples guide](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/examples/README.md): demo bank statement and price series, step by step
-- [API client](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/examples/api_client.py): dependency-free Python client for the HTTP API
+- [Examples guide](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/examples/README.md): demo bank statement and price series, step by step
+- [API client](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/examples/api_client.py): dependency-free Python client for the HTTP API
 
 ## Development
 
-- [AGENTS.md](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/AGENTS.md): code layout, commands and rules for AI coding assistants
-- [CONTRIBUTING.md](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/CONTRIBUTING.md): how to contribute
-- [ROADMAP.md](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/ROADMAP.md): planned features
+- [AGENTS.md](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/AGENTS.md): code layout, commands and rules for AI coding assistants
+- [CONTRIBUTING.md](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/CONTRIBUTING.md): how to contribute
+- [ROADMAP.md](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/ROADMAP.md): planned features
 
 ## Optional
 
-- [CHANGELOG.md](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/CHANGELOG.md): release notes
-- [SECURITY.md](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/SECURITY.md): reporting vulnerabilities
-- [NOTICE](https://raw.githubusercontent.com/GIBDD-DPS/prizolov-agent-os/main/NOTICE): attribution required on redistribution (Apache 2.0, section 4(d))
+- [CHANGELOG.md](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/CHANGELOG.md): release notes
+- [SECURITY.md](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/SECURITY.md): reporting vulnerabilities
+- [NOTICE](https://raw.githubusercontent.com/prizolov-lab/prizolov-agent-os/main/NOTICE): attribution required on redistribution (Apache 2.0, section 4(d))

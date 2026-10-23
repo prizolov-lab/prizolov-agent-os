@@ -5,7 +5,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Сообщить об уязвимости
-    url: https://github.com/GIBDD-DPS/prizolov-agent-os/security/advisories/new
+    url: https://github.com/prizolov-lab/prizolov-agent-os/security/advisories/new
     about: Приватно, не в открытом issue.
   - name: Prizolov Lab
     url: https://prizolov.ru

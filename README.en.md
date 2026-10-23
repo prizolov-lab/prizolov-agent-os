@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0 -->
 
 **Author:** Dm.Andreyanov · **Brand:** Prizolov Lab · © 2026 · version 0.3.0 · [prizolov.ru](https://prizolov.ru) · [Русский](README.md)
 
-[![CI](https://github.com/GIBDD-DPS/prizolov-agent-os/actions/workflows/ci.yml/badge.svg)](https://github.com/GIBDD-DPS/prizolov-agent-os/actions/workflows/ci.yml)
+[![CI](https://github.com/prizolov-lab/prizolov-agent-os/actions/workflows/ci.yml/badge.svg)](https://github.com/prizolov-lab/prizolov-agent-os/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
@@ -28,13 +28,13 @@ user's language.
 ## Try it in a minute
 
 **In the browser, nothing to install:**
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/GIBDD-DPS/prizolov-agent-os?quickstart=1)
-— a ready environment opens in a couple of minutes; start the web UI with `prizolov api`.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/prizolov-lab/prizolov-agent-os?quickstart=1)
+A ready environment opens in a couple of minutes; start the web UI with `prizolov api`.
 
-**On your computer** — no Claude key needed (the bank statement is demo data from [examples/](examples/)):
+**On your computer** - no Claude key needed (the bank statement is demo data from [examples/](examples/)):
 
 ```bash
-git clone https://github.com/GIBDD-DPS/prizolov-agent-os.git && cd prizolov-agent-os
+git clone https://github.com/prizolov-lab/prizolov-agent-os.git && cd prizolov-agent-os
 pip install -e .
 prizolov cashflow examples/demo_bank_statement.csv --balance 3000000 --days 60
 prizolov report GC=F --horizons 1,7,15,30      # gold futures, Yahoo Finance
@@ -42,8 +42,8 @@ prizolov report GC=F --horizons 1,7,15,30      # gold futures, Yahoo Finance
 
 Then run:
 
-- `prizolov init` — set up the Claude key, Telegram and the web interface;
-- `prizolov doctor` — check that everything works.
+- `prizolov init` - set up the Claude key, Telegram and the web interface;
+- `prizolov doctor` - check that everything works.
 
 ## Features
 
@@ -128,13 +128,13 @@ Scheduled tasks are set up with `/schedule` in the chat or Telegram, or by askin
 
 ## Documentation (Russian)
 
-- [docs/architecture.md](docs/architecture.md) — how the system works.
-- [docs/configuration.md](docs/configuration.md) — all settings.
-- [docs/api.md](docs/api.md) — HTTP API reference.
-- [docs/mcp.md](docs/mcp.md) — MCP server setup for Claude Desktop, Cursor, Claude Code.
-- [examples/](examples/) — demo data and walkthroughs.
+- [docs/architecture.md](docs/architecture.md) - how the system works.
+- [docs/configuration.md](docs/configuration.md) - all settings.
+- [docs/api.md](docs/api.md) - HTTP API reference.
+- [docs/mcp.md](docs/mcp.md) - MCP server setup for Claude Desktop, Cursor, Claude Code.
+- [examples/](examples/) - demo data and walkthroughs.
 - [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [CHANGELOG.md](CHANGELOG.md), [ROADMAP.md](ROADMAP.md).
-- [AGENTS.md](AGENTS.md) — rules for AI coding assistants; [llms.txt](llms.txt) — project summary for LLMs.
+- [AGENTS.md](AGENTS.md) - rules for AI coding assistants; [llms.txt](llms.txt) - project summary for LLMs.
 
 ## Authorship and license
 

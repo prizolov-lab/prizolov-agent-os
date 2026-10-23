@@ -8,7 +8,7 @@ SPDX-License-Identifier: Apache-2.0 -->
 
 Не публикуйте уязвимость в открытом issue. Сообщить о ней можно двумя способами:
 
-- через [приватный отчёт GitHub](https://github.com/GIBDD-DPS/prizolov-agent-os/security/advisories/new);
+- через [приватный отчёт GitHub](https://github.com/prizolov-lab/prizolov-agent-os/security/advisories/new);
 - письмом на **contact@prizolov.ru** с темой «Security: Prizolov Agent OS».
 
 В сообщении укажите:
