@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 from .. import events as ev
+from ..agenomics_link import AgenomicsLink
 from ..agent import Agent, AgentResult, add_usage
 from ..agents import create_specialists
 from ..budget import Budget, MeteredLLM
@@ -111,6 +112,9 @@ class Kernel:
             tracer.attach(self.events)
         self._llm = llm
         self._last: Optional[Tuple[str, str]] = None
+        # Необязательная связь с Agenomics (AGENOMICS_EVIDENCE=1); без неё None.
+        self.agenomics = AgenomicsLink.from_env(self.events, getattr(settings, "model", "") or "", self_check)
+        self._task_counter = 0
         # Исходные промпты из кода: к ним возвращает откат версий.
         self._default_prompts = {name: a.system_prompt for name, a in self.agents.items()}
         self._setup_agents()
@@ -206,6 +210,9 @@ class Kernel:
     def _start_task(self) -> None:
         if self.budget is not None:
             self.budget.start_task()
+        if self.agenomics is not None:
+            self._task_counter += 1
+            self.agenomics.start(f"{self.session_id}:{self._task_counter}")
 
     def reset(self) -> None:
         """Начинает новый диалог (старый остаётся в памяти)."""
@@ -245,6 +252,8 @@ class Kernel:
         if self._should_check(result):
             result = self._self_check(task, result)
         self._last = (task, result.text)
+        if self.agenomics is not None:
+            self.agenomics.finish(result.completed)
         return result
 
     def _should_check(self, result: AgentResult) -> bool:
@@ -280,6 +289,8 @@ class Kernel:
         """Оценка последнего ответа. Из замечания формируется урок для агента."""
         if self._last is None:
             raise ValueError("Ещё нет ответа, который можно оценить")
+        if self.agenomics is not None:
+            self.agenomics.human(positive)
         if positive and not comment.strip():
             self.quality.record_feedback("director", True)
             return None
