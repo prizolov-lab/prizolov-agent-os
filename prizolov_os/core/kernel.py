@@ -113,7 +113,9 @@ class Kernel:
         self._llm = llm
         self._last: Optional[Tuple[str, str]] = None
         # Необязательная связь с Agenomics (AGENOMICS_EVIDENCE=1); без неё None.
-        self.agenomics = AgenomicsLink.from_env(self.events, getattr(settings, "model", "") or "", self_check)
+        self.agenomics = AgenomicsLink.from_env(
+            self.events, getattr(settings, "model", "") or "", self_check
+        )
         self._task_counter = 0
         # Исходные промпты из кода: к ним возвращает откат версий.
         self._default_prompts = {name: a.system_prompt for name, a in self.agents.items()}
