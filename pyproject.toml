@@ -66,6 +66,9 @@ api = [
 mcp = [
     "mcp>=1.2.0",
 ]
+agenomics = [
+    "agenomics>=0.9.6",
+]
 all = [
     "prizolov-os[mcp]",
     "prizolov-os[dev]",
