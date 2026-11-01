@@ -41,7 +41,7 @@ jobs:
           python -m pytest -q -p no:cacheprovider
       - name: Собрать
         run: python -m build
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: dist
           path: dist/
