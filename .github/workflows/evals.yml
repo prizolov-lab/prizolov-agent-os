@@ -67,7 +67,7 @@ jobs:
       - name: Отчёт в сводку
         if: always() && steps.key.outputs.ok == 'true'
         run: cat evals-report/*.md >> "$GITHUB_STEP_SUMMARY" || true
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         if: always() && steps.key.outputs.ok == 'true'
         with:
           name: evals-report
